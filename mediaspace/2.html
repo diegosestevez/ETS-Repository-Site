@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=yes"
+    />
+    <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
+    <title>Mediaspace Galleries</title>
+    <link rel="stylesheet" href="https://ltc.bcit.ca/public/v1/css/bcit.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="https://ltc.bcit.ca/public/v1/js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <a href="./../index.html">
+        <img class="navlogo" src="../assets/bcit_rev.png" alt="bcit" />
+        ETS Kaltura Repo
+      </a>
+      <img
+        src="https://www.cosocloud.com/wp-content/uploads/2019/06/logo_video_player_kaltura_white.png"
+        alt="Kaltura Logo"
+      />
+    </nav>
+    <div class="container">
+      <h1>Mediaspace Galleries</h1>
+      <p>
+        A Mediaspace Gallery is a space for a department to store their videos.
+        Depending on the requested settings, this Gallery can either be
+        restricted to specific users or opened to the general public. Upon
+        creation, a Mediaspace Gallery will have an assigned owner (manager).
+        This person will be responsible for configuring the Gallery’s viewing
+        restrictions, adding and deleting Gallery members, enabling moderation
+        and permitting comments for published videos.
+      </p>
+      <figure class="img"><img src="assets/3.png" alt /></figure>
+      <p>
+        To obtain a Mediaspace Gallery, a department must make a request to the
+        ETS team specifying the type of Gallery they would like to have created
+        for them. Additionally, they must also provide the A0 number of an
+        individual they would like as their Gallery’s owner (manager).
+        <strong
+          >Prospective Gallery owners must attend a Mediaspace Gallery owner’s
+          workshop hosted by an ETS member if it is their first time managing a
+          Mediaspace Gallery.</strong
+        >
+      </p>
+      <p>
+        Below are the types of Media Galleries a department may request (please
+        note that Gallery managers can change this type after it has been
+        created)
+      </p>
+      <h2>Creating and Configuring Galleries (ETS only)</h2>
+      <p>
+        Mediaspace Galleries are set on the
+        <a href="https://api.ca.kaltura.com/index.php/kmcng">Kaltura KMC</a>. To
+        create a gallery ETS staff should log in, go to the
+        <strong>Categories tab</strong> and then click the
+        <strong>Add Category button.</strong> Give the category the name the
+        client has requested and set the parent categories to
+        <strong>‘Media &gt; site &gt; galleries’,</strong> then click
+        <strong>Apply.</strong>
+      </p>
+      <div class="swapper">
+        <figure class="img"><img src="assets/4.jpeg" alt /></figure>
+        <figure class="img"><img src="assets/5.jpeg" alt /></figure>
+      </div>
+      <p>
+        When the Gallery has been created go directly into the Entitlements
+        module. What determines a Gallery’s type boils down to three settings.
+      </p>
+      <div class="key-point">
+        <p>
+          <strong>Content Privacy</strong> – Determines who can see content
+          (videos) inside the Gallery
+        </p>
+        <p>
+          <strong>Category Listing</strong> – Determines who can see the Gallery
+          on the frontpage of Mediaspace
+        </p>
+        <p>
+          <strong>Content Publish Permissions</strong> – Determines whether
+          members of the public can view videos inside the Gallery (Not
+          applicable unless if the above two settings are set to ‘No
+          restrictions’ )
+        </p>
+      </div>
+      <figure class="img"><img src="assets/6.jpeg" alt /></figure>
+      <figure class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Entitlement Settings</th>
+              <th>Gallery</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>Content Privacy : <strong>No restrictions</strong></p>
+                <p>Category Listing : <strong>No restrictions</strong></p>
+                <p>
+                  Content Publish Permissions: <strong>No restrictions</strong>
+                </p>
+              </td>
+              <td>
+                Gallery and its content are visible to all users, this includes
+                members of the public. Only Gallery members with the Contributor
+                role or higher can add content
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Content Privacy : <strong>No restrictions</strong></p>
+                <p>Category Listing : <strong>No restrictions</strong></p>
+                <p>Content Publish Permissions: <strong>Private</strong></p>
+              </td>
+              <td>
+                Gallery is visible to all users, this includes members of the
+                public. Content is visible however users must authenticate past
+                BCIT SSO in order to view individual videos. Only Gallery
+                members with the Contributor role or higher can add content
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Content Privacy : <strong>Requires Authentication</strong>
+                </p>
+                <p>Category Listing : <strong>No restrictions</strong></p>
+                <p>Content Publish Permissions:<strong> N/A</strong></p>
+              </td>
+              <td>
+                Gallery is visible to all users, this includes members of the
+                public. However content is visible to users who can authenticate
+                past BCIT SSO. Only Gallery members with the Contributor role or
+                higher can add content
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Content Privacy : <strong>Requires Authentication</strong>
+                </p>
+                <p>Category Listing : <strong>No restrictions</strong></p>
+                <p>Content Publish Permissions:<strong> N/A</strong></p>
+              </td>
+              <td>
+                Gallery is visible to all users who can authenticate past BCIT
+                SSO but content is visible only to Gallery members. Only Gallery
+                members with a Contributor role or higher may add content
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Content Privacy : <strong>No restrictions</strong></p>
+                <p>Category Listing : <strong>Private</strong></p>
+                <p>Content Publish Permissions:<strong> N/A</strong></p>
+              </td>
+              <td>
+                Gallery is visible only to users who can authenticate past BCIT
+                SSO and are Gallery members
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  Content Privacy : <strong>Requires Authentication</strong>
+                </p>
+                <p>Category Listing : <strong>Private</strong></p>
+                <p>Content Publish Permissions:<strong> N/A</strong></p>
+              </td>
+              <td>
+                Gallery is visible only to users who can authenticate past BCIT
+                SSO and are Gallery members
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Content Privacy : <strong>Private</strong></p>
+                <p>Category Listing : <strong>Private</strong></p>
+                <p>Content Publish Permissions:<strong> N/A</strong></p>
+              </td>
+              <td>
+                Gallery is visible only to users who can authenticate past BCIT
+                SSO and are Gallery members
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </figure>
+      <h2>Gallery Roles</h2>
+      <p>
+        Mediaspace Galleries have several of roles that can be assigned to their
+        members by Gallery managers. These roles differ from viewing only rights
+        to full editing rights. These roles are:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Member -</strong> Anyone with this role can view content
+          inside a gallery (this role is not necessary to apply if your Gallery
+          is not set to Private)
+        </li>
+        <li>
+          <strong>Contributor</strong> – Anyone with this role will have the
+          ability to view, create and publish content inside a Gallery
+        </li>
+        <li>
+          <strong>Moderator</strong> – Anyone with this role can view, create
+          and publish content inside a Gallery. The Moderators can also approve
+          or reject content from being published into the Gallery. (<strong
+            >Note:</strong
+          >
+          Moderate Content in the Gallery Options must be enabled by the Gallery
+          Manager before Moderators can approve/reject content)
+        </li>
+        <li>
+          <strong>Manager</strong> – Anyone with this role has full
+          administrator rights into the Gallery. Managers can view, create and
+          publish content into the Gallery. Managers can also enable moderation,
+          enable comments, moderate content, change the Gallery type, add or
+          remove Gallery metadata and assign or remove members and their roles.
+          Gallery managers can also delete the Gallery in its entirety (this
+          action is irreversible, deleted galleries cannot be recovered by ETS
+          or Kaltura)
+        </li>
+        <li>
+          <strong>Manger (Owner)</strong> – The same as the manger role except
+          this role cannot be deleted by other Gallery managers. One person will
+          be assigned this role upon the Gallery’s creation by the ETS team
+        </li>
+      </ul>
+
+      <figure class="img"><img src="assets/7.png" alt /></figure>
+    </div>
+    <span class="pageturn center">
+      <a class="prev" href="1.html"> Prev </a>
+      <a class="next" href="3.html"> Next </a>
+    </span>
+
+    <footer>
+      <span>
+        <img src="../assets/bcit_rev.png" alt="bcit" />
+        <span>Education Technology Support</span>
+      </span>
+      <li>
+        <ul>
+          techhelp@bcit.ca
+        </ul>
+        <ul>
+          604.412.7444 (option 2)
+        </ul>
+        <ul>
+          1-800-351-5533 (option 2)
+        </ul>
+      </li>
+    </footer>
+    <script src="https://ltc.bcit.ca/public/v1/js/lat.js"></script>
+  </body>
+</html>
